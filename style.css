@@ -1,0 +1,127 @@
+ #about{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		color:#555;
+}
+#about .btn{
+	margin-top:20px;
+	margin-bottom: 30px;
+}
+.about-contant{
+	padding-top: 20px;
+}
+
+/*---------------Services--------------->*/
+
+#services{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(5.jpg);
+	background-size: cover;
+	background-position:center;
+	color:#efefef !important; 
+	background-attachment: fixed;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#services h1{
+	text-align: center;
+	color:#efefef !important; 
+	padding-bottom: 10px;
+}
+#services h1::after
+{
+	content:'';
+	background:#efefef;
+	display:block; 
+	height:3px;
+	width:170px;
+	margin:20px auto 5px;
+}
+.icon{
+	font-size:40px; 
+	margin:20px auto;
+	padding:20px;
+	height:80px;
+	width: 80px;
+	border:1px solid #fff;
+	border-radius: 50%;
+}
+#services p{
+	font-family: Arial;
+	font-size:20px;
+	margin-top:20px;
+	color:white;
+}
+.services .col-md-3:hover{
+	background-color:#007bff;
+	cursor:pointer; 
+	transition:0.7s;
+
+}
+
+/*----------------Promo---------------*/
+#promo{
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(https://img.freepik.com/free-vector/gradient-green-blue-abstract-geometric-background_23-2148362562.jpg?size=626&ext=jpg&ga=GA1.2.1200846803.1608212057);
+	background-size: cover;
+	background-position: center;
+	color:#fff;
+	background-attachment: fixed;
+	text-align: center;
+	padding:100px;
+	font-family: sans-serif;
+	font-size: 38px;
+}
+/*-----------------------------price-plans-------------------------*/
+ #price{
+	padding: 100px 0px;
+	background-color:#efefef; 
+	bac
+}
+.single-price{
+	margin:1px auto;
+	display:inline;
+	float:left;
+	width:100%;
+	background-color: yellow;
+	transition:0.5s;
+}
+.price-head
+{
+	background-color: #2196f3;
+	display: inline;
+	float: left;
+	padding: 10px 5px;
+	text-align: center;
+	width: 100%;
+}
+.price-head h2{
+	color:#fff;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding: 5px;
+	text-transform: :uppercase;
+}
+.price-head p
+{
+	font-size: 25px;
+	color:#ccc;
+	font-weight: bold;
+	line-height: 30px;
+}
+#price span{
+	font-size: 15px;
+}
+.price-content{
+	display: inline;
+	float: left;
+	width: 100%;
+	padding:0 15px;
+}
+.price-content ul li{
+	border-bottom: 1px solid #efefef;
+    padding: 15px 5px;
+    list-style:none;
+}
+ul li:last-child{
+	border:none;
+}

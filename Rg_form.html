@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by anonymous (http://jsbin.com/zabapuzeme/6/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdn.jscloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+ 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style id="jsbin-css">
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.logo{
+		background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiyDC4jv-zbSJP32NVF1JBECZfDpI7J6TYTg&usqp=CAU ');
+		background-repeat: no-repeat;
+		background-size: 150px 50px;
+}
+body{
+	font-family:verdana,Geneva,Tahoma,sans-serif;
+	font-size: 14px;
+	background:#f2f2f2;
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiyDC4jv-zbSJP32NVF1JBECZfDpI7J6TYTg&usqp=CAU ');
+	background-repeat: no-repeat;
+	background-size: 150px 50px;
+}
+.W{
+	background-color: yellow;
+	width: 500px;
+	padding: 25px;
+	margin:50px   auto 0; 
+	border-top: 5px solid yellow;
+	box-shadow:0 0 3px rgba(0,0,0,0.1);
+}
+.W h2 {
+	 font-size: 24px;
+	 line-height: 24px;
+	 padding-bottom: 30px;
+	 text-align: center;
+}
+.input-name{
+	width: 90%;
+	position: relative;
+	margin:20px auto;
+}
+.lock{
+	padding:8px 11px;
+}
+.name{
+	width: 45%;
+	padding:8px 0 8px 40px; 
+
+}
+.input-name span{
+	margin-left: 35px;
+}
+.text-name{
+	width: 100%;
+	padding:8px 0 8px 40px;
+  border-right:2px solid #cccccc;
+}
+.input-name i{
+	position:absolute;
+	font-size: 18px;
+	border-right:2px solid #cccccc; 
+}
+.email{
+	padding: 8px;
+}
+.text-name, .name{
+	border:1px solid #cccccc;
+	outline:none;
+	-webkit-transition:all 0.30s ease-in-out;
+	-moz-transition:all 0.30s ease-in-out;
+	transition:all 0.30s ease-in-out;
+}
+.text-name:hover, .name:hover{
+	background-color: #fafafa;
+}
+.text-name, .name{
+	border:1px solid #cccccc;
+	outline:none;
+	-webkit-transition:all 0.30s ease-in-out;
+	-moz-transition:all 0.30s ease-in-out;
+	transition:all 0.30s ease-in-out;
+}
+.text-name:focus, .name:focus{
+	-webkit-box-shadow:0 0 2px 1px rgba(255,169,0,0.5);
+	-moz-box-shadow:0 0 2px 1px rgba(255,169,0,0.5);
+	border:1px solid #f5ba1a;
+	background:#fafafa;
+}
+
+</style>
+</head>
+<body>
+<nav class="main">
+		<label class="logo"></label>
+		
+</nav>
+<div class="W">
+              <h2><b>Registration form</b></h2>
+<div class="form-contenair">
+<form>
+	<div class="input-name">
+  		<i class="fa fa-user lock"></i>
+		<input type="text" placeholder="FirstName" class="name">
+<span>
+	<i class="fa fa-user lock"></i>
+	<input type="text" placeholder="LastName" class="name">
+</span>                                          
+</div>
+ <div clas="input-name">
+    <input type="radio" name="radiogroup1 id="mahesh" class="=radio-button">
+    <label for="mahesh" class="gender">Male</label>
+    <input type="radio" name="radiogroup1 id="mahesh" class="=radio-button">
+    <label for="mahesh" class="gender">Female</label>
+ </div>
+       
+                                                          
+<div clas="input-name">
+     <i class="fa fa-birthday-cake" aria-hidden="true"></i>
+     <input type="birth" placeholder="Enter your date of birth" required class="text-name">
+</div>
+<div clas="input-name">
+	<i class="fa fa-envelope email"></i>
+    <input type="email" placeholder="Email" required class="text-name">
+ </div>
+ <div clas="input-name">
+	<i class="fa fa-lock lock"></i>
+    <input type="password" placeholder="Password" required class="text-name">
+ </div>
+ <div clas="input-name">
+	<i class="fa fa-lock lock"></i>
+    <input type="password" placeholder="Re-type Password" required class="text-name">
+ </div>
+ <div clas="input-name">
+	<i class="fa fa-phone" aria-hidden="true"></i>
+    <input type="phone number" placeholder="enter your Phone number" required class="text-name">
+ </div>
+ <div class="input-name">
+  <select class="country">
+  	<option>Select a College</option>
+  	<option>CVSR</option>
+  	<option>SNIST</option>
+  	<option>CMR</option>
+  </select> 	
+ </div>
+ <div class="input-name">
+ 	<input type="checkbox" id="cb1" class="check-button">
+ 	<label for="cb1" class="chack">I agree with terms and conditions</label>
+ </div>
+<!-- <div class="input-name">
+ 	<input type="checkbox" id="cb2" class="check-button">
+ 	<label for="cb2" class="chack">I agree with terms and conditions</label>
+ </div>-->
+<div class="input-name">
+ 	<input class="button" type="submit" value="Register" >
+ </div>
+                                                        
+</form>  
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+
+.logo{
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiyDC4jv-zbSJP32NVF1JBECZfDpI7J6TYTg&usqp=CAU ');
+  background-repeat: no-repeat;
+  background-size: 150px 50px;
+}
+
+		
+.right{
+  background-color:white;
+  background: url('file:///C:/Users/pathi%20mahesh%20kumar/Desktop/wt%20practice/7.webp');
+  background-repeat: no-repeat;
+  background-size: 830px 550px;
+
+}
+
+.main{
+background-color:white;
+background-image:url('https://swall.teahub.io/photos/small/176-1763060_background-for-e-learning-hd.jpg');
+background-repeat: no-repeat;
+  background-size: 1290px 130px;
+}
+#myMenu{
+  background-color:white;
+background: url('https://cdn.pixabay.com/photo/2018/01/08/08/47/digitization-of-library-3068971__480.jpg');
+
+  background-repeat: no-repeat;
+  background-size: 830px 500px;
+}
